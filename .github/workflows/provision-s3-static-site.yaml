@@ -38,6 +38,6 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
         NUMBER: ${{ github.event.issue.number }}
-        REPO: ${{ githyb.repository }}
+        REPO: ${{ github.repository }}
         BODY: > 
           O bucket S3 foi criado com sucesso!
